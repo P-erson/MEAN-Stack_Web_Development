@@ -1,0 +1,9 @@
+input 2 numbers
+display 'sum x + y = ' followed by the sum of the two numbers
+display 'difference x - y = ' followed by the difference of the two numbers
+display 'product x * y = ' followed by the product of the two numbers
+display 'quotient x / y = ' followed by the quotient of the two numbers
+
+input first name, last name, and age
+display any sentence that includes the first name, last name, and age of the person
+
