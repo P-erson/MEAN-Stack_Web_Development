@@ -1,0 +1,9 @@
+Task 2: Working with Data and Basic Validation
+Task:
+1. Create two variables containing text:
+ - Username.
+ - Password.
+2. Perform a basic validation using if:
+ - If the username is empty, display an alert saying: "Username is required".
+ - If the password is less than 8 characters, display an alert saying: "Password must be at least 8 characters".
+3. Use console.log() to display the username and password after they pass the validation.
