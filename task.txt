@@ -1,0 +1,1 @@
+input from user and provide an output using any sort of function in main.js
