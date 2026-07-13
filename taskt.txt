@@ -1,0 +1,41 @@
+Objective: Build a program to evaluate employees based on multiple criteria (such as:
+years of experience, work performance, and overall rating).
+Task Requirements:
+1. Gather Employee Data:
+a. Ask for basic employee information: name, age, and years of experience.
+b. Ask the employee for their self-rating using prompt (from 1 to 10).
+2. Determine Job Category:
+a. if/else: If years of experience is less than 2 → "Junior".
+b. If between 2 and 5 → "Mid-Level".
+c. If between 5 and 10 → "Senior".
+d. If more than 10 → "Expert".
+3. Check Performance Level:
+a. The self-rating (input by the user) will determine if the employee is:
+i. 9 or higher → "Excellent"
+ii. 7-8 → "Good"
+iii. 5-6 → "Average"
+iv. Less than 5 → "Needs Improvement"
+b. Use switch to determine the rating.
+4. Salary Calculation:
+a. The employee should receive a bonus based on years of experience:
+i. If experience is between 0 and 2, bonus is 10% of the base salary.
+ii. If between 3 and 5, bonus is 15%.
+iii. If more than 5, bonus is 20%.
+b. Formula: Final Salary = Base Salary + Bonus
+5. Work Shift Time Calculation:
+a. Use Date to determine the current hour.
+b. If the hour is between 9:00 AM and 6:00 PM, the employee is in day shift.
+c. If the hour is between 6:00 PM and 9:00 AM, the employee is in night shift.
+6. Summary Output:
+a. Calculate the Final Salary.
+b. Display the results using console.log(), alert(), and DOM.
+c. Output the report using console.log() and
+document.getElementById().
+Instructions:
+1. Get the employee's data (name, age, years of experience, self-rating).
+2. Determine the job category (Junior, Mid-Level, Senior, Expert).
+3. Calculate the performance rating based on the self-rating.
+4. Calculate the bonus based on years of experience.
+5. Calculate the final salary.
+6. Determine if the employee is in the day or night shift.
+7. Display the results in console, alert, and DOM.  
