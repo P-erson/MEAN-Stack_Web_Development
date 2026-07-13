@@ -1,0 +1,30 @@
+JavaScript Mini Project: Smart User Checker App
+■ Objective: Build a simple app that asks the user for input, processes it using logic and
+conditions, and shows the result in different ways.
+■ Step 1: Ask the User for:
+- Their name (via prompt)
+- Their birth year
+- Whether they are a student (using confirm)
+■ Step 2: Process the Input:
+- Calculate the user's current age using: new Date().getFullYear() - birth year
+- Use conditional logic to categorize their age:
+- Less than 13 → Kid
+- 13 to 17 → Teen
+- 18 to 59 → Adult
+- 60 or older → Senior
+- If the user is a student, also display: "Don't forget to study hard!"
+■ Step 3: Show the Output:
+You must display the final message in all three ways:
+- In the browser console (console.log)
+- In an alert box
+- In the HTML page using DOM (document.getElementById(...).innerText)
+■ Example Output:
+Hello Ali, you are 20 years old.
+Category: adult.
+Don't forget to study hard!
+■ Requirements:
+- Use variables of different types (string, number, boolean)
+- Use if / else if / else
+- Use arithmetic operations
+- Show the result using three output methods
+Good luck! ■
