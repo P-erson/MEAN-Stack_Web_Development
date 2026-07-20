@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.rightCell{
+    border-left: 2px dotted black;
+    width: 50%;
+}
+.leftCell{
+    border-right: 2px dotted black;
+    width: 50%;
+}
