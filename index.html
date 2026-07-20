@@ -1,23 +1,33 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <table>
-            <td class="leftCell">
-                <table class="frame">
-                    <td style="text-align: right;">
-                        <input placeholder="First Name"> <br>
-                        <input placeholder="Age">
-                    </td>
-                    <td style="text-align: left;">
-                        <input placeholder="Last Name"> <br>
-                        <label>Is Graduted?</label><input type="checkbox">
-                    </td>
-                </table>
-            </td>
-            <td class="rightCell">hi</td>
-        </table>
+        <main class="page">
+            <section class="left-cell">
+                <form class="frame">
+                    <div class="row">
+                        <div class="col">
+                            <input id="firstName" placeholder="First Name">
+                            <input id="age" placeholder="Age">
+                        </div>
+                        <div class="col">
+                            <input id="lastName" placeholder="Last Name">
+                            <label for="isGraduated">Is Graduated?</label>
+                            <input id="isGraduated" type="checkbox">
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+            <section class="right-cell">
+
+            </section>
+        </main>
         <script src="main.js"></script>
     </body>
 </html>
