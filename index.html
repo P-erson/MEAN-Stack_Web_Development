@@ -7,7 +7,7 @@
     <body>
         <main class="page">
             <section class="left-cell">
-                <section class="frame">
+                <section class="inputFrame">
                     <div class="row">
                         <div class="col">
                             <input id="firstName" placeholder="First Name">
@@ -21,11 +21,28 @@
                     </div>
 
                     <button onclick="submit()">Submit</button>
+                    <button id="updateBtn" onclick="updateUser()">Update</button>  
                 </section>
             </section>
 
             <section class="right-cell">
-
+                <table id="dataTable" class="outputFrame">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Is Graduated?</th>
+                    </tr>
+                    <tr id="user0">
+                        <td class="tableCol">Mahmoud</td>
+                        <td class="tableCol">Fayed</td>
+                        <td class="tableCol">19</td>
+                        <td class="tableCol">false</td>
+                        <td><button onclick="retrieveData(0)">Update</button>
+                            <button onclick="deleteUser(0)">Delete</button>
+                        </td>
+                    </tr>
+                </table>
             </section>
         </main>
         <script src="main.js"></script>

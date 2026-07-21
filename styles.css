@@ -24,9 +24,9 @@ html, body {
     border-right: 2px dotted black;
 }
 
-.frame {
+.inputFrame {
     min-width: 18cm;
-    min-height: 6cm;
+    min-height: auto;
     border: 2px solid black;
     vertical-align: middle;
     width: 12cm;
@@ -35,6 +35,18 @@ html, body {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.outputFrame {
+    min-width: 18cm;
+    min-height: auto;
+    border: 2px solid black;
+    vertical-align: middle;
+    width: 12cm;
+    border-radius: 7px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 
 .row {
     display: flex;
@@ -52,4 +64,9 @@ html, body {
 input, button {
     padding: 10px;
     font-size: 1rem;
+}
+
+.tableCol {
+    text-align: center;
+    border: 1px double rgb(0, 0, 10);
 }
