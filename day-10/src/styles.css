@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    margin-left: 20px;
+}
+.pageDiv {
+    border: 3px ridge #E7C8A0;
+}
+h1, p {
+    padding-left: 6px;
+}
+.navText {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+html, body {
+    background-color: #FCF4D7;
+}
